@@ -31,6 +31,10 @@
  **                                                                         **
  ****************************************************************************/
 
+_Pragma( "once" );
+
+#include <stdexcpet>
+
 struct  _StandardNewDeleteForms
     {
     static void* operator new( std::size_t _Size )
